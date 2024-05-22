@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+html,
+body {
+    font-family: 'Lobster', cursive, Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('../Img/WaterPolution/Main.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Lobster', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: #4CAF50;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.college-name {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: auto;
+    padding-left: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.menu-item {
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    position: relative;
+    height: 60vh;
+    top: 3%;
+}
+
+.renewable-heading {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-100%, -50%);
+    font-size: 60px;
+    font-weight: bold;
+    color: #1a4a52;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.content-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.content-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1a4a52;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+    padding-top: 35px;
+}
+
+.content-text {
+    font-size: 16px;
+    color: #1a4a52;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+}
+
+.types-container {
+    margin-top: 20px;
+}
+
+.types-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #1a4a52;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px;
+}
+
+.type-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.type-image {
+    width: 150px;
+    margin-right: 20px;
+}
+
+.type-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1a4a52;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.type-description {
+    font-size: 16px;
+    color: #1a4a52;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    line-height: 1.5;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.footer-text {
+    font-size: 14px;
+}
+.community-project-img {
+    width: 200px;
+    margin-bottom: 10px;
+}
+.image-grid {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+margin-top: 20px;
+}
+
+.grid-image {
+width: 100%;
+height: auto;
+border-radius: 5px;
+}
+footer {
+    background-color: #4CAF50;
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+    /* font-weight: bold; */
+    font-size: 18px;
+    margin-top: 20px;
+}
